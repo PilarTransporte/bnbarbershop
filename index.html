@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BN Barbershop - Barbearia em Porto</title>
+    <meta name="description" content="BN Barbershop - Serviços de barbearia premium em Porto. Cortes, barbas e tratamentos capilares de qualidade desde 2014.">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="optimized_images/bn.jpg" alt="BN Barbershop Logo">
+            </div>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: url('optimized_images/DSC09344.jpg');">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">BN BARBERSHOP</h1>
+                <p class="hero-subtitle">Serviços padronizados e premium desde 2014</p>
+                <a href="#contact" class="btn">Agendar Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Nós</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Fala, pessoal! Sou Breno Sobrinho, mais conhecido como BN, natural do Espírito Santo. Estou nessa profissão desde os 13 anos de idade e cheguei a Portugal aos 18. Já se passaram cinco anos desde então.</p>
+                    <p>Desde que cheguei, tive o privilégio de cortar o cabelo de muitas pessoas, incluindo algumas conhecidas mundialmente. Após trabalhar em uma barbearia por três anos, tomei coragem, segui minha intuição e abri a BN Barbershop.</p>
+                    <p>Hoje, seguimos firmes e fortes, atendendo mais de 1.000 clientes por mês.</p>
+                    <p>Agradeço a todos os clientes e amigos pelo apoio!</p>
+                </div>
+                <div class="about-image">
+                    <img src="optimized_images/DSC06258.jpg" alt="Breno Sobrinho - Proprietário da BN Barbershop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">Nossos <span>Serviços</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="optimized_images/DSC09363.jpg" alt="Corte de Cabelo">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Corte de Cabelo</h3>
+                        <p>Cortes modernos e tradicionais realizados por profissionais experientes.</p>
+                        <div class="service-price">€13,00</div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="optimized_images/DSC06349.jpg" alt="Barba">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Barba</h3>
+                        <p>Tratamento completo para barba, incluindo toalha quente e produtos especiais.</p>
+                        <div class="service-price">€6,00</div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="optimized_images/DSC06390.jpg" alt="Corte + Barba">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-title">Corte + Barba</h3>
+                        <p>Combinação perfeita de corte de cabelo e tratamento de barba.</p>
+                        <div class="service-price">€17,00</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-btn-container" style="text-align: center; margin-top: 40px;">
+                <a href="#pricing" class="btn">Ver Todos os Serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabela de Preços -->
+    <section id="pricing" class="pricing section">
+        <div class="container">
+            <h2 class="section-title">Tabela de <span>Preços</span></h2>
+            <div class="pricing-content">
+                <img src="optimized_images/tabela_precos.png" alt="Tabela de Preços BN Barbershop" style="max-width: 100%; margin-bottom: 30px;">
+                
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Corte</td>
+                            <td class="price-value">€13,00</td>
+                        </tr>
+                        <tr>
+                            <td>Barba</td>
+                            <td class="price-value">€6,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte + Barba</td>
+                            <td class="price-value">€17,00</td>
+                        </tr>
+                        <tr>
+                            <td>Alinhamento</td>
+                            <td class="price-value">€5,00</td>
+                        </tr>
+                        <tr>
+                            <td>Descoloração</td>
+                            <td class="price-value">€40,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte + Descoloração</td>
+                            <td class="price-value">€50,00</td>
+                        </tr>
+                        <tr>
+                            <td>Madeixas</td>
+                            <td class="price-value">€40,00</td>
+                        </tr>
+                        <tr>
+                            <td>Alisamento</td>
+                            <td class="price-value">€10,00</td>
+                        </tr>
+                        <tr>
+                            <td>Selagem</td>
+                            <td class="price-value">€40,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte + Selagem</td>
+                            <td class="price-value">€50,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte com Pigmentação</td>
+                            <td class="price-value">€23,00</td>
+                        </tr>
+                        <tr>
+                            <td>Corte Criança</td>
+                            <td class="price-value">€11,00</td>
+                        </tr>
+                        <tr>
+                            <td>Barbo-Terapia</td>
+                            <td class="price-value">€7,00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <h2 class="section-title">Nossa <span>Galeria</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC06286.jpg" alt="BN Barbershop Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC06421.jpg" alt="Corte de Cabelo BN Barbershop">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC06291.jpg" alt="Ambiente BN Barbershop">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC00094.jpg" alt="Serviço de Barba BN Barbershop">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC09991.jpg" alt="Corte Moderno BN Barbershop">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC09994.jpg" alt="Atendimento BN Barbershop">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC00083.jpg" alt="Detalhes BN Barbershop">
+                </div>
+                <div class="gallery-item">
+                    <img src="optimized_images/DSC09511.jpg" alt="Estilo BN Barbershop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Entre em <span>Contacto</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Localização</h3>
+                            <p>Rua do Lindo Vale 305, 4200-133 Porto, Portugal</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário de Funcionamento</h3>
+                            <p>Segunda a Sábado: 10h às 20h</p>
+                            <p>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p><a href="tel:+351936354XXX">+351 936 354 XXX</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h3>Instagram</h3>
+                            <p><a href="https://www.instagram.com/barbershop.bn/" target="_blank">@barbershop.bn</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.0505325357634!2d-8.6022!3d41.1675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464e2f84b4c0f%3A0x5d2a84b9ae33e0b6!2sR.%20do%20Lindo%20Vale%20305%2C%204200-133%20Porto!5e0!3m2!1spt-PT!2spt!4v1745486400000!5m2!1spt-PT!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="optimized_images/bn.jpg" alt="BN Barbershop Logo">
+                    </div>
+                    <p>Serviços padronizados e premium desde 2014. Atendendo mais de 1.000 clientes por mês.</p>
+                </div>
+                
+                <div class="footer-links-container">
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#home">Início</a></li>
+                        <li class="footer-link"><a href="#about">Sobre</a></li>
+                        <li class="footer-link"><a href="#services">Serviços</a></li>
+                        <li class="footer-link"><a href="#gallery">Galeria</a></li>
+                        <li class="footer-link"><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contacto</h3>
+                    <p>Rua do Lindo Vale 305</p>
+                    <p>4200-133 Porto, Portugal</p>
+                    <p>Tel: +351 936 354 XXX</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/barbershop.bn/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 BN Barbershop. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
